@@ -33,10 +33,14 @@ const useAboutUs2 = () => {
       setCurrentVariant(breakpointsVariant);
     }
   }, [breakpointsVariant]);
+  
+  let dataNew: string = "string";
+  
+  const funcNew: any = () => console.log('hello world');
 
-  let data: any = { currentVariant };
+  let data: any = { currentVariant, dataNew };
 
-  let fns: any = { setCurrentVariant };
+  let fns: any = { setCurrentVariant, funcNew };
   return { data, fns };
 };
 
