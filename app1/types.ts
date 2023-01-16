@@ -15,6 +15,7 @@
 
 export interface AboutUsProps {
   className?: any;
+  customBinding?: string;
 }
 
 export interface AboutUs2Props {
