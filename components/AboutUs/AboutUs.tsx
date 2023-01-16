@@ -32,7 +32,7 @@ const ScreenDesktop: any = styled('div')({
   height: 'auto',
 });
 
-const Sec2: any = styled('div')({
+const Sec2: any = styled('header')({
   display: `flex`,
   position: `relative`,
   isolation: `isolate`,

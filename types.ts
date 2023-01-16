@@ -13,6 +13,17 @@
  *
  **********************************************************************/
 
+
 export interface AboutUsProps {
+  className?: any;
+}
+
+
+export interface AboutUs2Props {
+  className?: any;
+}
+
+
+export interface Q4042Props {
   className?: any;
 }
